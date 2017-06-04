@@ -1,0 +1,140 @@
+//
+//  PrefixHeaderIOS7.pch
+//  wqb--彩票项目
+//
+//  Created by administrator on 16/1/21.
+//  Copyright © 2016年 lhb. All rights reserved.
+//
+
+#ifndef PrefixHeaderIOS7_pch
+#define PrefixHeaderIOS7_pch
+#import "ViewController.h"
+//#import "HttpServicedsl.h"
+//#import "HttpService.h"
+//#import "personDynamic.h"
+//#import "PersonDynamicCell.h"
+//#import "uerinfo.h"
+//#import "NSString+Ext.h"
+//#import "newsLike.h"
+//#import "MJRefresh.h"
+//#import "AppDelegate.h"
+//#import "FirstActivityTableViewCell.h"
+//#import "FirstActivityCellModel.h"
+//#import "LikepesonImgModel.h"
+//#import "LikeTableViewCell.h"
+//#import "commentTableViewCell.h"
+//#import "EnrollActivityTableViewController.h"
+//#import "responseModel.h"
+//#import "ActivityModel.h"
+//#import "applyActivityModel.h"
+//#import "LoginViewController.h"
+//#import "RegisterViewController.h"
+//#import "ActivityManaerController.h"
+//#import "MemberManageController.h"
+//#import "Http.h"
+//#import "WKAlertView.h"
+//#import "ForgetPasswdViewController.h"
+//#import "NoDataTableViewCell.h"
+//#import "UserProtocolViewController.h"
+//#import "SVProgressHUD.h"
+//#import <SMS_SDK/SMSSDK.h>
+//#endif /* PrefixHeaderIOS7_pch */
+//
+//#ifdef __OBJC__
+//#import <UIKit/UIKit.h>
+//#import "NSString+Extension.h"
+//#import <Foundation/Foundation.h>
+//#import "KHTTP.h"
+//#import "MBProgressHUD+MJ.h"
+//#import "ImageWithSandBox.h"
+//#import "colorImage.h"
+//#import "HttpService.h"
+//#import "UIImage+IWJudgeCurrentDevice.h"
+//#import "UIImage+Extension.h"
+//#import "SettingItem.h"
+//#import "SettingArrowItem.h"
+//#import "SettingSwitchItem.h"
+//#import "SettingLabelItem.h"
+//#import "SettingGroup.h"
+//#import "testViewController.h"
+//#import "AFNetworking.h"
+//#import "MJExtension.h"
+//#import "UIImageView+WebCache.h"
+//#import "IWMyClubListController.h"
+//#import "IWMyPost.h"
+//#import "IWMyPostFrame.h"
+//#import "IWMyPostComment.h"
+//#import "IWMyPostCommentFrame.h"
+//#import "IWClubMainViewController.h"
+//#import "IWMyClub.h"
+//#import "IWMyClubFrame.h"
+//#import "IWMyClubListCell.h"
+//#import "IWClubLabelView.h"
+//#import "IWMyCollection.h"
+//#import "IWMyCollectionCell.h"
+//#import "IWMyCollectionFrame.h"
+//#import "IWClubPostFrame.h"
+//#import "IWClubPost.h"
+//#import "IWClubPostCell.h"
+//#import "CXButton.h"
+//#import "colorImage.h"
+//#import "DXAlertView.h"
+//#import "UILabel+Extension.h"
+//#import "IWSearchBar.h"
+//#import "UIImage+Addition.h"
+//#import "AFNetworking.h"
+//#import "MBProgressHUD.h"
+//#import "TextSize.h"
+//#import "ShowMessageTool.h"
+//#import "NSString+timeChange.h"
+//#import "MJPhoto.h"
+//#import "MJPhotoBrowser.h"
+
+#define UmengAppkey @"56f1f51e67e58e136c0052b9"
+
+#define kMeInfoNotification @"sendMessage"
+
+#define IOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+// 2.获得RGB颜色
+#define IWColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define IWTitleColor IWColor(79, 149, 77)
+#define IWBgColor IWColor(245, 240, 231)
+// 3.自定义Log
+#ifdef DEBUG
+#define IWLog(...) NSLog(__VA_ARGS__)
+#else
+#define IWLog(...)
+#endif
+
+#define sectionHeight 35
+#define screenW [[UIScreen mainScreen]bounds].size.width
+#define screenH [[UIScreen mainScreen]bounds].size.height
+#define IWBadgeTitleFont [UIFont systemFontOfSize:12]
+#define IWPostNameFont [UIFont systemFontOfSize:12]
+#define IWPostTimeFont [UIFont systemFontOfSize:10]
+#define IWPostLabelFont [UIFont systemFontOfSize:8]
+#define IWPostTitleFont [UIFont systemFontOfSize:14]
+#define IWPostContentFont [UIFont systemFontOfSize:12]
+#define IWPostPhotoBorder 5
+#define IWPostTableCellBorder 2
+#define IWPostToolBarHeight 35
+#define IWPostCellBorder 10
+#define IWPostTableViewCellBorder 10
+#define IWMeInfoLabelCellBorder 15
+#define IWOriginalY 64
+#define IWMyClubListCellIconWidth 40
+#define IWMeCellIconWidth 50
+#define IWMeCellIconHeight IWMeCellIconWidth
+#define IWMyClubIconWidth 70
+#define IWMyClubIconHeight IWMyClubIconWidth
+#define IWMyClubListCellIconHeight IWMyClubListCellIconWidth
+#define IWMyClubListCellBorder 2
+#define IWCellHeight 44
+#define IWMyCollectionFounderIconWidth 30
+#define IWMyCollectionFounderIconHeight IWMyCollectionFounderIconWidth
+#define IWMyCollectionActivityPhotoWidth 70
+#define IWMyCollectionActivityPhotoHeight 70
+#endif
+
+
+
